@@ -21,7 +21,7 @@ int main()
 	std::cout << "Check edge (5,1): " << graph1.hasEdge(5, 1) << " (should be 1)" << std::endl;
 
 	// NOTE: Expects following matrix output
-	// 1 1 1 1 1
+	// 0 1 1 1 1
 	// 1 0 1 0 0
 	// 1 1 0 1 0
 	// 1 0 1 0 1
