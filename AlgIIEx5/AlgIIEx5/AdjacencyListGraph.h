@@ -8,8 +8,9 @@
 //		- NOTE: We want undirected graph 
 //			-> both directions should be created (so addEdge(1,2) should create both (1,2) and (2,1))
 //		- NOTE: It might be good idea to also check if edge is not already defined
-//		- NOTE: addAdjanced in AdjacencyList will have to create new dynamic array and copy already present items
-//	- hasEdge . printGraph on graph can just iterate through array of AdjacencyList objects and call correct method
+//		- NOTE: addAdjanced in AdjacencyList will have to create new dynamic array 
+//			and copy already present items
+//	- hasEdge, printGraph on graph can just iterate through array of AdjacencyList objects and call correct method
 //	- destructors should dispose any created objects
 
 class AdjacencyList
