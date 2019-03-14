@@ -16,8 +16,9 @@
 class AdjacencyList
 {
 public:
-	AdjacencyList(int vertexId);
+	AdjacencyList();
 	~AdjacencyList();
+	void setVertexId(int vertexId);
 	int getVertexId() const;
 	void addAdjanced(int vertex);
 	bool hasAdjanced(int vertex);
@@ -26,6 +27,7 @@ public:
 private:
 	int vertexId;
 	int *adjancedVertices;
+	int countOfAdjacents;
 };
 
 class AdjacencyListGraph
@@ -38,4 +40,5 @@ public:
 	void printGraph();
 private:
 	AdjacencyList* adjacencyList;
+	int countOfVertices;
 };

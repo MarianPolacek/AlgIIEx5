@@ -1,4 +1,5 @@
 #pragma once
+
 class AdjacencyMatrixGraph
 {
 public:
@@ -7,5 +8,7 @@ public:
 	void addEdge(int from, int to);
 	bool hasEdge(int from, int to);
 	void printGraph();
+private:
+	int countOfVertices;
 };
 

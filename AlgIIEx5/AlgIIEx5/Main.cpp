@@ -21,7 +21,7 @@ int main()
 	std::cout << "Check edge (5,1): " << graph1.hasEdge(5, 1) << " (should be 1)" << std::endl;
 
 	// NOTE: Expects following matrix output
-	// 0 1 1 1 1
+	// 2 1 1 1 1
 	// 1 0 1 0 0
 	// 1 1 0 1 0
 	// 1 0 1 0 1
@@ -38,6 +38,7 @@ int main()
 	graph2.addEdge(2, 3);
 	graph2.addEdge(3, 4);
 	graph2.addEdge(4, 5);
+	graph2.addEdge(1, 1);
 
 	// NOTE: Expects undirected graph (1,5) == (5,1)
 	std::cout << "Check edge (5,1): " << graph2.hasEdge(5, 1) << " (should be 1)" << std::endl;

@@ -1,11 +1,15 @@
 #include "pch.h"
 #include "AdjacencyListGraph.h"
 
-AdjacencyList::AdjacencyList(int vertexId)
+AdjacencyList::AdjacencyList()
 {
 }
 
 AdjacencyList::~AdjacencyList()
+{
+}
+
+void AdjacencyList::setVertexId(int vertexId)
 {
 }
 
