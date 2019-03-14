@@ -10,5 +10,6 @@ public:
 	void printGraph();
 private:
 	int countOfVertices;
+	int** matrix;
 };
 

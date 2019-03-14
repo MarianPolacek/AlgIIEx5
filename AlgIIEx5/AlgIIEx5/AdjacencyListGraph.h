@@ -23,6 +23,7 @@ public:
 	void addAdjanced(int vertex);
 	bool hasAdjanced(int vertex);
 	void printList();
+	int getVertexDegree(); // Spocita stupen vrcholu
 
 private:
 	int vertexId;
@@ -38,6 +39,7 @@ public:
 	void addEdge(int from, int to);
 	bool hasEdge(int from, int to);
 	void printGraph();
+	int getVertexDegree(int vertex);
 private:
 	AdjacencyList* adjacencyList;
 	int countOfVertices;
